@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<div data-role="page" class="page1" data-theme="b">
+	<div data-role="page" id="page1" data-theme="b">
 		<div data-role="header" id="header" style="text-align:center;">
 			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" id="menu" type="button"/></div>
 			<div class="div_header" style="display:inline-block; vertical-align:middle; margin: 0% 10% "><img src="/img/logo2012.png" alt="DailyMov" width="320" height="89" /></div>
@@ -17,69 +17,43 @@
 		</div>
 		<div role="content" class="ui-content" data-theme="c" >
 			<ul data-role="listview" data-inset="true">
+				<!--<li> data-role="list-divider"
+					<a href="#">
+						<img class="photoProfil" src="Photo-profil.png" alt="image_logo" style="width:50%;" class="ui-li-has-thumb ui-shadow"/>
+						<h3>Stephen Weber</h3>
+						<p><strong>Homme</strong> 25 ans</p>
+					</a>
+				</li>-->
 				<li data-role="list-divider">
 					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film03.png" alt="image_logo" style="width:50%;"/>
+							<img class="photoProfil" src="images/Photo-profil.png" alt="image_logo" style="width:50%;"/>
 						</div>
 						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>UGC Les Halles - Robocop</h3></p>
-							<p><strong>Chatelet</strong> 75001</p>
+							<h3>Stephen Weber</h3>
+							<p><strong>Homme</strong> 25 ans</p>
 						</div>
 					</a>
 				</li>
 				<li data-role="list-divider">
 					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film02.png" alt="image_logo" style="width:50%;"/>
+							<img class="photoProfil" src="images/Photo-profil.png" alt="image_logo" style="width:50%;"/>
 						</div>
 						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - Jack et la mécanique du coeur</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
+							<h3>Stephen Weber</h3>
+							<p><strong>Homme</strong> 25 ans</p>
 						</div>
 					</a>
 				</li>
 				<li data-role="list-divider">
 					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film01.png" alt="image_logo" style="width:50%;"/>
+							<img class="photoProfil" src="images/Photo-profil.png" alt="image_logo" style="width:50%;"/>
 						</div>
 						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - L'île des Miam-mimaux</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
-				</li>
-				<li data-role="list-divider">
-					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50%;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>Gaumont - American Bluff</h3></p>
-							<p><strong>Saint Denis</strong> 93000</p>
-						</div>
-					</a>
-				</li>
-				<li data-role="list-divider">
-					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50%;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - American Bluff</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
-				</li>
-				<li data-role="list-divider">
-					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film7.png" alt="image_logo" style="width:50%;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - Méa Culpa</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
+							<h3>Stephen Weber</h3>
+							<p><strong>Homme</strong> 25 ans</p>
 						</div>
 					</a>
 				</li>
