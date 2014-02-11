@@ -1,0 +1,49 @@
+//@import "compass";
+
+/**{@include box-sizing(border-box);}*/
+body{font-family: "Ubuntu"; font-size: 18px;
+	color:red;}
+
+#page1{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#FDFDFD;
+	//z-index:3;
+	//@include transform(translate3d(552px, 0, 0));
+}
+
+#page1 #header .div_header{
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+}
+
+#page1 .ui-content .displayBlock{
+	display:block;
+	//vertical-align:midle;
+	text-align:center;
+	width:100%;
+	height:50%;
+	margin-bottom:3%;
+}
+
+#page1 .ui-content #droite{
+	visibility: visible;
+	position : relative;
+	z-index:10;
+	display:inline-block;
+}
+
+#page1 .ui-content #gauche{
+	display:inline-block;
+	z-index:-10;
+}
+
+#page1 .ui-content #gauche .photoProfil{
+	width:50%;
+	height:50%;
+	left:20%;
+}
