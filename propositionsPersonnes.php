@@ -9,21 +9,23 @@
 </head>
 
 <body>
-	<div data-role="page" id="page1" data-theme="b">
+	<div data-role="page" class="page1" data-theme="b">
 		<div data-role="header" id="header" style="text-align:center;">
-			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" id="menu" type="button"/></div>
+			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" class="aller_menu" type="button"/></div>
 			<div class="div_header" style="display:inline-block; vertical-align:middle; margin: 0% 10% "><img src="/img/logo2012.png" alt="DailyMov" width="320" height="89" /></div>
 			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Tchat" type="button"/></div>
 		</div>
 		<div role="content" class="ui-content" data-theme="c" >
+			<div class="menu" data-theme="c">
+				<ul data-role="listview">
+					<li><a href="">Accueil</a></li>
+					<li><a href="">Profil</a></li>
+					<li><a href="">Tchat</a></li>
+					<li><a href="">Réglages</a></li>
+					<li><a href="">Partager sur FB</a></li>
+				</ul>
+			</div>
 			<ul data-role="listview" data-inset="true">
-				<!--<li> data-role="list-divider"
-					<a href="#">
-						<img class="photoProfil" src="Photo-profil.png" alt="image_logo" style="width:50%;" class="ui-li-has-thumb ui-shadow"/>
-						<h3>Stephen Weber</h3>
-						<p><strong>Homme</strong> 25 ans</p>
-					</a>
-				</li>-->
 				<li data-role="list-divider">
 					<a href="#" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
@@ -60,14 +62,15 @@
 			</ul>
 		</div>
 	</div>
+	
 	<script type="text/javascript">
 		$(function(){
-			$("#page1 #droite").hide();
-			$("#page1 #menu").click(function(){
-				if ($("#page1 #droite").is(":hidden")) {
-					$("#page1 #droite").show();
+			$(".page1 .menu").hide();
+			$(".page1 .aller_menu").click(function(){
+				if ($(".page1 .menu").is(":hidden")) {
+					$(".page1 .menu").show();
 				} else {
-					$("#page1 #droite").hide();
+					$(".page1 .menu").hide();
 				}
 			});
 		});

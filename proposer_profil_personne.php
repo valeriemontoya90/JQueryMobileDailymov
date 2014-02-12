@@ -9,15 +9,15 @@
 </head>
 
 <body>
-	<div data-role="page" id="page1" data-theme="b">
+	<div data-role="page" class="page1" data-theme="b">
 		<div data-role="header" id="header" style="text-align:center;">
-			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" id="menu" type="button"/></div>
+			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" class="aller_menu" type="button"/></div>
 			<div class="div_header" style="display:inline-block; vertical-align:middle; margin: 0% 10% "><img src="/img/logo2012.png" alt="DailyMov" width="320" height="89" /></div>
 			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Tchat" type="button"/></div>
 		</div>
 		<div data-role="content" class="ui-content" data-theme="c">
-			<div id="droite" data-theme="a">
-				<ul data-role="listview" >
+			<div class="menu" data-theme="c">
+				<ul data-role="listview">
 					<li><a href="">Accueil</a></li>
 					<li><a href="">Profil</a></li>
 					<li><a href="">Tchat</a></li>
@@ -34,35 +34,15 @@
 	
 	<script type="text/javascript">
 		$(function(){
-			$("#page1 #droite").hide();
-			$("#page1 #menu").click(function(){
-				if ($("#page1 #droite").is(":hidden")) {
-					$("#page1 #droite").show();
+			$(".page1 .menu").hide();
+			$(".page1 .aller_menu").click(function(){
+				if ($(".page1 .menu").is(":hidden")) {
+					$(".page1 .menu").show();
 				} else {
-					$("#page1 #droite").hide();
+					$(".page1 .menu").hide();
 				}
 			});
 		});
 	</script>
-	
-	<!--<style type="text/css">
-
-#page1 .ui-content #droite{
-	visibility: visible;
-	z-index:10;
-	display:inline-block;
-}
-
-#page1 .ui-content #gauche{
-	display:inline-block;
-	z-index:-10;
-}
-	
-#page1 .ui-content #gauche .photoProfil{
-	width:50%;
-	height:50%;
-	left:20%;
-}
-	</style>-->
 </body>
 </html>
