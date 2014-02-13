@@ -22,7 +22,6 @@
 				width:12%;
 				padding:0px;">
 				<img src="images/menu.png" alt="logo_menu" style="width:35px; height: 35px;"/>
-				<!--<input data-enhanced="true" value="Menu" class="aller_menu" type="button"/>-->
 			</div>
 			<div class="div_header" style="display:inline-block; 
 				vertical-align:middle;
@@ -38,7 +37,7 @@
 				width:5%;
 				vertical-align:top; 
 				margin-top:12px;
-				margin-left:40%;">
+				margin-left:41%;">
 				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
 			</div>
 		</div>

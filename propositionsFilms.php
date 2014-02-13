@@ -37,7 +37,7 @@
 				width:5%;
 				vertical-align:top; 
 				margin-top:12px;
-				margin-left:40%;">
+				margin-left:41%;">
 				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
 			</div>
 		</div>
@@ -52,33 +52,12 @@
 				</ul>-->
 			</div>
 			<ul data-role="listview" data-inset="true" style="margin: 0em 0px;" class="allerversSeances">
-				<li data-role="list-divider" id="allerversSeances" style="
-					border: 0px solid; 
-					background:white;
-					border-bottom: 1px solid #e4e4e4;">
-					<div class="ui-btn-inner ui-li ui-corner-top" style="
-						margin:0px;
-						padding:0em 0px;
-						border: 0px solid;
-						border-top-left-radius: 0em;
-						border-top-right-radius: 0em; 
-						background:white;
-						">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film03.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" class="allerversSeances" >
-							<p><h3>UGC Les Halles - Robocop</h3></p>
-							<p><strong>Chatelet</strong> 75001</p>
-						</div>
-					</a>
-					</div>
-				</li>
 				<li data-role="list-divider" style="
 					border: 0px solid; 
 					background:white;
-					border-bottom: 1px solid #e4e4e4;">
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
 					<div class="ui-btn-inner ui-li ui-corner-top" style="
 						margin:0px;
 						padding:0em 0px;
@@ -87,13 +66,21 @@
 						border-top-right-radius: 0em; 
 						background:white;
 						">
-						<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-							<div style="display:inline-block; margin:0px; padding:0px">
-								<img class="photoProfil" src="images/photo_film02.png" alt="image_logo" style="width:50px;"/>
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film03.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
 							</div>
-							<div style="display:inline-block; vertical-align:top;" >
-								<p><h3>MK2 - Jack et la mécanique du coeur</h3></p>
-								<p><strong>La Villete</strong> 75019 Paris</p>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">Robocop</h3></p>
+								<p style="color:gray;">Chatelet 75001</p>
 							</div>
 						</a>
 					</div>
@@ -101,7 +88,9 @@
 				<li data-role="list-divider" style="
 					border: 0px solid; 
 					background:white;
-					border-bottom: 1px solid #e4e4e4;">
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
 					<div class="ui-btn-inner ui-li ui-corner-top" style="
 						margin:0px;
 						padding:0em 0px;
@@ -110,20 +99,31 @@
 						border-top-right-radius: 0em; 
 						background:white;
 						">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film01.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - L'île des Miam-mimaux</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film01.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
+							</div>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">Jack et la mécanique du coeur</h3></p>
+								<p style="color:gray;">La Villete 75019 Paris</p>
+							</div>
+						</a>
+					</div>
 				</li>
 				<li data-role="list-divider" style="
 					border: 0px solid; 
 					background:white;
-					border-bottom: 1px solid #e4e4e4;">
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
 					<div class="ui-btn-inner ui-li ui-corner-top" style="
 						margin:0px;
 						padding:0em 0px;
@@ -132,20 +132,31 @@
 						border-top-right-radius: 0em; 
 						background:white;
 						">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>Gaumont - American Bluff</h3></p>
-							<p><strong>Saint Denis</strong> 93000</p>
-						</div>
-					</a>
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film02.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
+							</div>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">L'île des Miam-mimaux</h3></p>
+								<p style="color:gray;">La Villete 75019 Paris</p>
+							</div>
+						</a>
+					</div>
 				</li>
 				<li data-role="list-divider" style="
 					border: 0px solid; 
 					background:white;
-					border-bottom: 1px solid #e4e4e4;">
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
 					<div class="ui-btn-inner ui-li ui-corner-top" style="
 						margin:0px;
 						padding:0em 0px;
@@ -154,20 +165,31 @@
 						border-top-right-radius: 0em; 
 						background:white;
 						">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - American Bluff</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
+							</div>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">American Bluff</h3></p>
+								<p style="color:gray;">Saint Denis 93000</p>
+							</div>
+						</a>
+					</div>
 				</li>
 				<li data-role="list-divider" style="
 					border: 0px solid; 
 					background:white;
-					border-bottom: 1px solid #e4e4e4;">
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
 					<div class="ui-btn-inner ui-li ui-corner-top" style="
 						margin:0px;
 						padding:0em 0px;
@@ -176,15 +198,57 @@
 						border-top-right-radius: 0em; 
 						background:white;
 						">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film7.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - Méa Culpa</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
+							</div>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">American Bluff</h3></p>
+								<p style="color:gray;">La Villete 75019 Paris</p>
+							</div>
+						</a>
+					</div>
+				</li>
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;
+					padding-top:3%;
+					padding-bottom:1%;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
+						<a href="propositionsPersonnes.php" style="
+							text-decoration:none; 
+							color:black; vertical-align:top;
+							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
+							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
+								<img class="photoProfil" src="images/photo_film7.png" alt="image_logo" style="
+										width:50px;
+										padding-bottom:0px;"/>
+							</div>
+							<div style="display:inline-block; 
+								vertical-align:top;
+								font-family:Lucida Console;
+								font-style:normal;" >
+								<p><h3 style="font-weight:normal; font-size:15px;">Méa Culpa</h3></p>
+								<p style="color:gray;">La Villete 75019 Paris</p>
+							</div>
+						</a>
+					</div>
 				</li>
 			</ul>
 		</div>
