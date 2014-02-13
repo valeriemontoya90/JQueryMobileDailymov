@@ -1,8 +1,11 @@
 //@import "compass";
 
 /**{@include box-sizing(border-box);}*/
-body{font-family: "Ubuntu"; font-size: 18px;
-	color:red;}
+body{
+	font-family: "Ubuntu"; 
+	font-size: 18px;
+	color:red; 
+	background-color:green !important;}
 
 #page1{
 	position: absolute;

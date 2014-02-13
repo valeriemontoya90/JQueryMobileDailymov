@@ -6,14 +6,15 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<script src="fonction_menu.js"></script>
 </head>
 
 <body>
-	<div data-role="page" class="page1" data-theme="b">
-		<div data-role="header" id="header" style="text-align:center;">
-			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Menu" class="aller_menu" type="button"/></div>
-			<div class="div_header" style="display:inline-block; vertical-align:middle; margin: 0% 10% "><img src="/img/logo2012.png" alt="DailyMov" width="320" height="89" /></div>
-			<div class="div_header" style="display:inline-block; vertical-align:top;"><input data-enhanced="true" value="Tchat" type="button"/></div>
+	<div data-role="page" class="page0" data-theme="b">
+		<div data-role="header" id="header" style="width=100%; height=100%;">
+			<div class="div_header" style="display:inline-block; vertical-align:top; position:absolute; top:0px; left:0px; "><input data-enhanced="true" value="Menu" class="aller_menu" type="button"/></div>
+			<div class="div_header" style="display:inline-block; vertical-align:middle; margin-left:40%;"><img src="" alt="DailyMov" width="" height="" /></div>
+			<div class="div_header" style="display:inline-block; vertical-align:top; position:absolute; top:0px; right:0px; "><input data-enhanced="true" value="Tchat" type="button"/></div>
 		</div>
 		<div data-role="content" class="ui-content" data-theme="c">
 			<div class="menu" data-theme="c">
@@ -43,19 +44,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<script type="text/javascript">
-		$(function(){
-			$(".page1 .menu").hide();
-			$(".page1 .aller_menu").click(function(){
-				if ($(".page1 .menu").is(":hidden")) {
-					$(".page1 .menu").show();
-				} else {
-					$(".page1 .menu").hide();
-				}
-			});
-		});
-	</script>
 
 </body>
 </html>
