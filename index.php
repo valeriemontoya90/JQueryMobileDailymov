@@ -29,7 +29,7 @@
 				width:15%;
 				font-size:35px;
 				font-family:Verdana;
-				margin-left:27%;
+				margin-left:29%;
 				margin-top:10px;">
 				DailyMov
 			</div>

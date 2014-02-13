@@ -11,10 +11,36 @@
 
 <body style='color:red;'>
 	<div data-role="page" class="page0" data-theme="b">
-		<div data-role="header" id="header" style="width=100%; height=100%;">
-			<div class="div_header" style="display:inline-block; vertical-align:top; position:absolute; top:0px; left:0px; "><input data-enhanced="true" value="Menu" class="aller_menu" type="button"/></div>
-			<div class="div_header" style="display:inline-block; vertical-align:middle; margin-left:40%;"><img src="" alt="DailyMov" width="" height="" /></div>
-			<div class="div_header" style="display:inline-block; vertical-align:top; position:absolute; top:0px; right:0px; "><input data-enhanced="true" value="Tchat" type="button"/></div>
+		<div data-role="header" id="header" style="height:57px; background:#d14233; border: 0px solid; position:relative;">
+			<div class="div_header" style="display:inline-block; 
+				vertical-align:top; 
+				position:absolute; 
+				top:0px; 
+				left:0px; 
+				margin-top:12px;
+				margin-left:3%;
+				width:12%;
+				padding:0px;">
+				<img src="images/menu.png" alt="logo_menu" style="width:35px; height: 35px;"/>
+				<!--<input data-enhanced="true" value="Menu" class="aller_menu" type="button"/>-->
+			</div>
+			<div class="div_header" style="display:inline-block; 
+				vertical-align:middle;
+				width:15%;
+				font-size:35px;
+				font-family:Verdana;
+				margin-left:27%;
+				margin-top:10px;">
+				DailyMov
+			</div>
+			<div class="div_header" style="
+				display:inline-block; 
+				width:5%;
+				vertical-align:top; 
+				margin-top:12px;
+				margin-left:40%;">
+				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
+			</div>
 		</div>
 		<div data-role="content" class="ui-content" data-theme="c" >
 			<div class="menu" data-theme="c">
