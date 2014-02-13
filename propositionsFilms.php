@@ -22,15 +22,14 @@
 				width:12%;
 				padding:0px;">
 				<img src="images/menu.png" alt="logo_menu" style="width:35px; height: 35px;"/>
-				<!--<input data-enhanced="true" value="Menu" class="aller_menu" type="button"/>-->
 			</div>
 			<div class="div_header" style="display:inline-block; 
 				vertical-align:middle;
 				width:15%;
 				font-size:35px;
 				font-family:Verdana;
-				margin-left:27%;
-				margin-top:10px;">
+				margin-left:29%;
+				margin-top:8px;">
 				DailyMov
 			</div>
 			<div class="div_header" style="
@@ -42,7 +41,7 @@
 				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
 			</div>
 		</div>
-		<div data-role="content" class="ui-content" data-theme="c" >
+		<div data-role="content" class="ui-content" data-theme="c" style="padding:0px; background:white;">
 			<div class="menu" data-theme="c">
 				<!--<ul data-role="listview">
 					<li><a href="">Accueil</a></li>
@@ -53,7 +52,18 @@
 				</ul>-->
 			</div>
 			<ul data-role="listview" data-inset="true" style="margin: 0em 0px;" class="allerversSeances">
-				<li data-role="list-divider" id="allerversSeances">
+				<li data-role="list-divider" id="allerversSeances" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
 					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
 							<img class="photoProfil" src="images/photo_film03.png" alt="image_logo" style="width:50px;"/>
@@ -63,19 +73,43 @@
 							<p><strong>Chatelet</strong> 75001</p>
 						</div>
 					</a>
+					</div>
 				</li>
-				<li data-role="list-divider">
-					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
-						<div style="display:inline-block; margin:0px; padding:0px">
-							<img class="photoProfil" src="images/photo_film02.png" alt="image_logo" style="width:50px;"/>
-						</div>
-						<div style="display:inline-block; vertical-align:top;" >
-							<p><h3>MK2 - Jack et la mécanique du coeur</h3></p>
-							<p><strong>La Villete</strong> 75019 Paris</p>
-						</div>
-					</a>
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
+						<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
+							<div style="display:inline-block; margin:0px; padding:0px">
+								<img class="photoProfil" src="images/photo_film02.png" alt="image_logo" style="width:50px;"/>
+							</div>
+							<div style="display:inline-block; vertical-align:top;" >
+								<p><h3>MK2 - Jack et la mécanique du coeur</h3></p>
+								<p><strong>La Villete</strong> 75019 Paris</p>
+							</div>
+						</a>
+					</div>
 				</li>
-				<li data-role="list-divider">
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
 					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
 							<img class="photoProfil" src="images/photo_film01.png" alt="image_logo" style="width:50px;"/>
@@ -86,7 +120,18 @@
 						</div>
 					</a>
 				</li>
-				<li data-role="list-divider">
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
 					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
 							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50px;"/>
@@ -97,7 +142,18 @@
 						</div>
 					</a>
 				</li>
-				<li data-role="list-divider">
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
 					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
 							<img class="photoProfil" src="images/photo_film6.png" alt="image_logo" style="width:50px;"/>
@@ -108,7 +164,18 @@
 						</div>
 					</a>
 				</li>
-				<li data-role="list-divider">
+				<li data-role="list-divider" style="
+					border: 0px solid; 
+					background:white;
+					border-bottom: 1px solid #e4e4e4;">
+					<div class="ui-btn-inner ui-li ui-corner-top" style="
+						margin:0px;
+						padding:0em 0px;
+						border: 0px solid;
+						border-top-left-radius: 0em;
+						border-top-right-radius: 0em; 
+						background:white;
+						">
 					<a href="propositionsPersonnes.php" style="text-decoration:none; color:black; vertical-align:top;">
 						<div style="display:inline-block; margin:0px; padding:0px">
 							<img class="photoProfil" src="images/photo_film7.png" alt="image_logo" style="width:50px;"/>
@@ -145,8 +212,8 @@
 			function swipeleftHandler( event ){
 				alert("test");
 				//$( event.target ).addClass( "swipeleft" );
-			}*/
-		});
+			}
+		});*/
 	</script>
 </body>
 </html>

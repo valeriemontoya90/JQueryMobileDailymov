@@ -30,7 +30,7 @@
 				font-size:35px;
 				font-family:Verdana;
 				margin-left:29%;
-				margin-top:10px;">
+				margin-top:8px;">
 				DailyMov
 			</div>
 			<div class="div_header" style="
