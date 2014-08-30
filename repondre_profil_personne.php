@@ -4,6 +4,7 @@
 	<title>DailyMov</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="apple-touch-icon" href="images/logo.png"/>
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 	<script src="fonction_menu.js"></script>
@@ -38,20 +39,27 @@
 				vertical-align:top; 
 				margin-top:12px;
 				margin-left:41%;">
-				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
+				<a href="contact.php">
+					<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
+				</a>
 			</div>
 		</div>
-		<div data-role="content" class="ui-content" data-theme="c" style="background-image:url('images/BG-petit.png');">
+		<div data-role="content" class="ui-content" data-theme="c" style="
+			background-image:url('images/BG-petit.png');
+			background-size: cover;
+			height:500px;">
 			<div class="menu" data-theme="a">
 			</div>
 			<div id="gauche" style="text-align:center;">
-				<div style="margin:0px; padding: 0px; margin-bottom:%; color:white;"><p>Pierre Fayol</p></div>
-				<img class="photoProfil" src="images/Photo-Pierre.png" alt="image_logo" style="
+				<div style="margin:0px; padding: 0px; margin-bottom:0%; color:white;"><p>Robin Stepzcak</p></div>
+				<img class="photoProfil" src="images/Photo-profil.png" alt="image_logo" style="
 					width:160px; 
 					height:160px;
 					margin-top:3%;"/>
 				<div style="margin:5%; margin-bottom:12%;">
-					<p>"J'aime le cinéma et les rencontres anodines"</p>
+					<p style="color:white; margin:0px;">"J'aime le foot et le cinéma"</p><br/>
+					<p style="color:white; margin:0px;">Ryan Initiative</p>
+					<p style="color:white; margin:0px;">MK2 Bibliotheque - 17h30 VO</p>
 				</div>
 				<div>
 					<div style="
@@ -59,7 +67,7 @@
 							width:45%;
 							margin:0px;
 							margin-bottom:10%; ">
-						<a href="propositionsFilms.php" data-role="button" style="
+						<a href="index.php" data-role="button" style="
 							padding:0%; 
 							background:#74aa81;
 							color:white; 
@@ -76,7 +84,7 @@
 							width:45%;
 							margin:0px;
 							margin-bottom:10%; ">
-						<a href="propositionsFilms.php" data-role="button" style="
+						<a href="index.php" data-role="button" style="
 							padding:0%; 
 							background:#d14233;
 							color:white; 
@@ -92,19 +100,5 @@
 			</div>
 		</div>
 	</div>
-	
-	<script type="text/javascript">
-		/*$(function(){
-			$(".page0 .menu").hide();
-			$(".page1 .aller_menu").click(function(){
-				if ($(".page0 .menu").is(":hidden")) {
-					$(".page0 .menu").show();
-				} else {
-					$(".page0 .menu").hide();
-				}
-			});
-		});*/
-	</script>
-
 </body>
 </html>

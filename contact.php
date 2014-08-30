@@ -74,7 +74,7 @@
 									font-family:Lucida Console;
 									font-style:normal;" >
 									<p><h3 style="font-weight:normal; font-size:15px;">Guillaume Despres</h3></p>
-									<p style="color:gray;">19 ans - Paris 75012</p>
+									<p style="color:gray;">Très bonne soirée à une proch...</p>
 								</div>
 						</div>
 					</a>
@@ -107,73 +107,7 @@
 										font-family:Lucida Console;
 										font-style:normal;" >
 										<p><h3 style="font-weight:normal; font-size:15px;">Robin Stepczak</h3></p>
-										<p style="color:gray;">21 ans - Paris 75004</p>
-									</div>
-							</div>
-						</a>
-				</li>
-				<li data-role="list-divider" style="
-					border: 0px solid; 
-					background:white;
-					border-bottom: 1px solid #e4e4e4;
-					padding-top:3%;
-					padding-bottom:1%;">
-						<a href="proposer_profil_personne.php" style="
-							text-decoration:none; 
-							color:black; vertical-align:top;
-							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
-							<div class="ui-btn-inner ui-li ui-corner-top" style="
-								margin:0px;
-								padding:0em 0px;
-								border: 0px solid;
-								border-top-left-radius: 0em;
-								border-top-right-radius: 0em; 
-								background:white;
-								">
-									<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
-										<img class="photoProfil" src="images/Photo-Val.png" alt="image_logo" style="
-												width:50px;
-												padding-bottom:0px;"/>
-									</div>
-									<div style="display:inline-block; 
-										vertical-align:top;
-										font-family:Lucida Console;
-										font-style:normal;" >
-										<p><h3 style="font-weight:normal; font-size:15px;">Valérie Montoya</h3></p>
-										<p style="color:gray;">23 ans - Massy Palaiseau 91300</p>
-									</div>
-							</div>
-						</a>
-				</li>
-				<li data-role="list-divider" style="
-					border: 0px solid; 
-					background:white;
-					border-bottom: 1px solid #e4e4e4;
-					padding-top:3%;
-					padding-bottom:1%;">
-						<a href="proposer_profil_personne.php" style="
-							text-decoration:none; 
-							color:black; vertical-align:top;
-							text-shadow: 0px 0px 0px rgb(37, 79, 122);">
-							<div class="ui-btn-inner ui-li ui-corner-top" style="
-								margin:0px;
-								padding:0em 0px;
-								border: 0px solid;
-								border-top-left-radius: 0em;
-								border-top-right-radius: 0em; 
-								background:white;
-								">
-									<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
-										<img class="photoProfil" src="images/Photo-profil.png" alt="image_logo" style="
-												width:50px;
-												padding-bottom:0px;"/>
-									</div>
-									<div style="display:inline-block; 
-										vertical-align:top;
-										font-family:Lucida Console;
-										font-style:normal;" >
-										<p><h3 style="font-weight:normal; font-size:15px;">Florian Neveu</h3></p>
-										<p style="color:gray;">23 ans - Drancy</p>
+										<p style="color:gray;">Je te propose qu'on se...</p>
 									</div>
 							</div>
 						</a>
@@ -187,8 +121,7 @@
 					<a href="proposer_profil_personne.php" style="
 						text-decoration:none; 
 						color:black; vertical-align:top;
-						text-shadow: 0px 0px 0px rgb(37, 79, 122);
-						border: 0px solid;">
+						text-shadow: 0px 0px 0px rgb(37, 79, 122);">
 						<div class="ui-btn-inner ui-li ui-corner-top" style="
 							margin:0px;
 							padding:0em 0px;
@@ -198,7 +131,7 @@
 							background:white;
 							">
 								<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
-									<img class="photoProfil" src="images/Photo-Gui.png" alt="image_logo" style="
+									<img class="photoProfil" src="images/Photo-Val.png" alt="image_logo" style="
 											width:50px;
 											padding-bottom:0px;"/>
 								</div>
@@ -206,43 +139,9 @@
 									vertical-align:top;
 									font-family:Lucida Console;
 									font-style:normal;" >
-									<p><h3 style="font-weight:normal; font-size:15px;">Benjamin Garcia</h3></p>
-									<p style="color:gray;">22 ans - Montreuil</p>
+									<p><h3 style="font-weight:normal; font-size:15px;">Valérie Montoya</h3></p>
+									<p style="color:gray;">Oups :S j'ai un empechement...</p>
 								</div>
-						</div>
-					</a>
-				</li>
-				<li data-role="list-divider" style="
-					border: 0px solid; 
-					background:white;
-					border-bottom: 1px solid #e4e4e4;
-					padding-top:3%;
-					padding-bottom:1%;">
-					<a href="proposer_profil_personne.php" style="
-						text-decoration:none; 
-						color:black; vertical-align:top;
-						text-shadow: 0px 0px 0px rgb(37, 79, 122);
-						border: 0px solid;">
-						<div class="ui-btn-inner ui-li ui-corner-top" style="
-							margin:0px;
-							padding:0em 0px;
-							border-top-left-radius: 0em;
-							border-top-right-radius: 0em; 
-							border: 0px solid;
-							background:white;
-							">
-							<div style="display:inline-block; margin:0px; padding:0px; margin-right:3%;">
-								<img class="photoProfil" src="images/Photo-Val.png" alt="image_logo" style="
-										width:50px;
-										padding-bottom:0px;"/>
-							</div>
-							<div style="display:inline-block; 
-								vertical-align:top;
-								font-family:Lucida Console;
-								font-style:normal;" >
-								<p><h3 style="font-weight:normal; font-size:15px;">Esther Desbois</h3></p>
-								<p style="color:gray;">23 ans - Villejuif</p>
-							</div>
 						</div>
 					</a>
 				</li>

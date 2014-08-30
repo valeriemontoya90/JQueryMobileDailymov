@@ -4,6 +4,7 @@
 	<title>DailyMov</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+	<link rel="apple-touch-icon" href="images/logo.png"/>
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 	<script src="fonction_menu.js"></script>
@@ -22,7 +23,6 @@
 				width:12%;
 				padding:0px;">
 				<img src="images/menu.png" alt="logo_menu" style="width:35px; height: 35px;"/>
-				<!--<input data-enhanced="true" value="Menu" class="aller_menu" type="button"/>-->
 			</div>
 			<div class="div_header" style="display:inline-block; 
 				vertical-align:middle;
@@ -39,7 +39,9 @@
 				vertical-align:top; 
 				margin-top:12px;
 				margin-left:40%;">
-				<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
+				<a href="contact.php">
+					<img src="images/bulle.png" alt="logo_menu" style="width:35px; height:35px;"/>
+				</a>
 			</div>
 		</div>
 		<div data-role="content" class="ui-content" data-theme="c" style="background-image:url('images/BG-petit.png');">
@@ -50,12 +52,12 @@
 				<img class="photoProfil" src="images/Photo-Pierre.png" alt="image_logo" style="
 					width:160px; 
 					height:160px;
-					margin-top:3%;"/>
+					margin-top:4%;"/>
 				<div style="margin:5%; margin-bottom:9%;">
-					<p>"J'aime le cinéma et les rencontres anodines"</p>
+					<p style="color:white;">J'aime le cinéma et les rencontres anodines"</p>
 				</div>
 				<div style="
-						margin-bottom:10%;" >
+						margin-bottom:13%;" >
 					<a href="propositionsPersonnes.php" data-role="button" style="
 						background:#d14233;
 						color:white; 
